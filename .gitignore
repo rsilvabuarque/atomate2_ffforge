@@ -1,0 +1,18 @@
+# Python artefacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Conda / venv
+.env/
+*.conda
+
+# Editors
+.vscode/
+.idea/
+
+# Tests
+htmlcov/
+
+# Misc
+.DS_Store

@@ -1,0 +1,21 @@
+name: ffforge-dev
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - scikit-learn
+  - pymatgen>=2024.3.14
+  - ase
+  - jobflow>=0.2.6
+  - atomate2>=0.0.12
+  - pytest
+  - pre-commit
+  - black
+  - ruff
+  - mypy
+  - pip:
+      - m3gnet
+      - dscribe
+

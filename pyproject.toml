@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atomate2-ffforge"
+version = "0.0.1a0"
+description = "DIRECT-driven ML-FF workflow for atomate2"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy",
+  "scikit-learn",
+  "pymatgen>=2024.3.14",
+  "ase",
+  "m3gnet>=0.2.4",
+  "dscribe",
+  "jobflow>=0.2.0",
+  "atomate2>=0.0.12",
+  "pytest",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["atomate2_ffforge*"]
