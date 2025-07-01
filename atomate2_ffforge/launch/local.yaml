@@ -1,0 +1,12 @@
+launchpad:
+  host: localhost
+  name: ffforge_local
+  port: 27017
+  ssl: false
+
+queue_adapter:
+  _fw_name: CommonAdapter
+  _priority: 0
+  submit_cmd: bash
+  script_filename: job.sh
+

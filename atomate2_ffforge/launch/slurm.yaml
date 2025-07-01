@@ -1,0 +1,17 @@
+launchpad:
+  host: localhost
+  name: ffforge_slurm
+  port: 27017
+  ssl: false
+
+queue_adapter:
+  _fw_name: SLURMAdapter
+  walltime: "00:30:00"
+  queue: regular
+  nodes: 1
+  tasks_per_node: 1
+  account: m4537
+  launcher: srun
+  script_filename: job.sh
+  pre_rocket: "module load vasp"
+

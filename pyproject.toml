@@ -17,6 +17,8 @@ dependencies = [
   "jobflow>=0.2.0",
   "atomate2>=0.0.12",
   "pytest",
+  "fireworks>=2.0.4",
+  "types-PyYAML>=6.0.12.12",  # for mypy
 ]
 
 [tool.setuptools.packages.find]
